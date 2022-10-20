@@ -1,0 +1,74 @@
+body{
+    background-color: #4281A4;
+}
+h1{
+    text-align: center;
+    color: #F2F6D0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#body{
+    display: flex;
+    justify-content: center;
+}
+.container div {
+    display: flex;
+}
+.container div span{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.ClassX,.ClassO{
+    color:#ffffff;
+    font-size: 100px;
+    margin: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player{
+    text-align: center;
+    color: white;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#repeat,#play{
+    margin-top: 2px;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+#repeat:hover{
+    background-color: white;
+    color: #4281A4;
+}
+
+
+
+
+
+#pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height:350px;
+}
+#play:hover{
+    background-color: white;
+    color: #4281A4;
+}
